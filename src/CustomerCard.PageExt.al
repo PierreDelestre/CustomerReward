@@ -28,10 +28,10 @@ pageextension 50100 "Customer Card" extends "Customer Card"
         }
     }
 
-    /*
+    
     trigger OnAfterGetRecord(); 
     var 
-        CustomerRewardsMgtExt: Codeunit "Customer Rewards Ext. Mgt."; 
+        CustomerRewardsMgtExt: Codeunit "Customer Rewards Ext. Mgt"; 
     begin 
         // Get the reward level associated with reward points 
         RewardLevel := CustomerRewardsMgtExt.GetRewardLevel(Rec.RewardPoints); 
@@ -39,6 +39,6 @@ pageextension 50100 "Customer Card" extends "Customer Card"
 
     var 
         RewardLevel: Text; 
-    */
+    
 } 
 

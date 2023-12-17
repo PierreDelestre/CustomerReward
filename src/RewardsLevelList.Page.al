@@ -31,16 +31,16 @@ page 50101 "Rewards Level List"
         }
     }
 
-    /*
+    
     trigger OnOpenPage(); 
     begin 
 
-        if not CustomerRewardsExtMgt.IsCustomerRewardsActivated then 
+        if not CustomerRewardsExtMgt.IsCustomerRewardsActivated() then 
             Error(NotActivatedTxt); 
     end; 
 
     var 
-        CustomerRewardsExtMgt: Codeunit "Customer Rewards Ext. Mgt."; 
+        CustomerRewardsExtMgt: Codeunit "Customer Rewards Ext. Mgt"; 
         NotActivatedTxt: Label 'Customer Rewards is not activated'; 
-    */
+    
 }
