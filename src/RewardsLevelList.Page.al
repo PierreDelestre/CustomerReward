@@ -1,3 +1,6 @@
+/// <summary>
+/// Page Rewards Level List (ID 50101).
+/// </summary>
 page 50101 "Rewards Level List"
 { 
     PageType = List;
